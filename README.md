@@ -1,6 +1,6 @@
 "# progetto_PCSC_Federico_Piva" 
 
-# Installation
+# Installation for Windows
 First of all, you must update and upgrade the system via:
 `systeminfo`
 Next you can install npm and node:
@@ -21,8 +21,8 @@ Open another shell
 'mongo'
 The connection will be made to the db, installed locally (127.0.0.1)
 
-If you are Ubuntu
-# Installation
+
+# Installation for Ubuntu
 First of all, you must update and upgrade the system via:
 `sudo apt update && sudo apt upgrade`
 Next you can install npm and node:
