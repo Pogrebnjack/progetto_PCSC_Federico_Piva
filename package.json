@@ -1,0 +1,27 @@
+{
+  "name": "sagrafunky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "base45": "^3.0.0",
+    "cose-js": "^0.6.0",
+    "googleapis": "^85.0.0",
+    "jimp": "^0.16.1",
+    "jsqr": "^1.4.0",
+    "mongoose": "^5.6.4",
+    "node-emoji": "^1.10.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "node-telegram-keyboard-wrapper": "^2.0.1",
+    "node-telegram-operation-manager": "^1.2.0",
+    "pako": "^2.0.4",
+    "qrcode-reader": "^1.0.4",
+    "zlib": "^1.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

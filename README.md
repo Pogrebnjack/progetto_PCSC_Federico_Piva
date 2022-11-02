@@ -1,28 +1,4 @@
-"# progetto_PCSC_Federico_Piva" 
-
-# Installation for Windows
-First of all, you must update and upgrade the system via:
-`systeminfo`
-Next you can install npm and node:
-`https://nodejs.org/en/`
-`Nodejs` is the javsacript runtime used by `Chrome`, named `V8`, that will let you run javascript code directly on your system while `npm` is the _Node Package Manager_, the same as `PiP` for `Python`.
-Check that everything went good during the installation by executing:
-`node --version`
-`npm --version`
-Nodejs version should be >= 14 and npm version should be >= 7
-Next you must install `MongoDB`.
-To install MongoDB follow these steps:
-`https://www.mongodb.com/try/download/community`
-Check that everything went good during the installation by executing:
-'mongo --version'
-To activate the server
-'mongod --dbpath "C:\Program Files\MongoDB\Server\4.4\data"'. You can create another route
-Open another shell
-'mongo'
-The connection will be made to the db, installed locally (127.0.0.1)
-
-
-# Installation for Ubuntu
+# Installation
 First of all, you must update and upgrade the system via:
 `sudo apt update && sudo apt upgrade`
 Next you can install npm and node:
@@ -41,3 +17,17 @@ If you are not using Ubuntu >= 20.04, please use it, then:
 `sudo apt-get update`
 `sudo apt-get install -y mongodb-org`
 
+You are now ready to clone this repository, if you haven't git yet, install it via:
+`sudo apt install git`
+then clone the project with:
+`git clone git@gitlab.com:Luca_Lumetti/sagrafunkybot.git`
+Switch into the folder with:
+`cd sagrafunkybot`
+and install all the required node packages:
+`npm i`
+
+You now have to create an API key for your bot. This process is completely handle by a Telegram bot named `@BotFather`. Follow it to get you first API key, and place it inside the config file using yout preferred file editor.
+You find 2 token here, debug and prod. Please to avoid stange interaction that can happen if 2 bot use the same key, remove both of them and replace you key in both `debug_token` and `prod_token`.
+If i've not missed anything and all the steps above proceeded as they should, you can now start the bot:
+`node bot.js`
+and send messages to the both you have created using `@BotFather`
