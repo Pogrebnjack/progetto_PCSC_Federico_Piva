@@ -41,3 +41,20 @@ If you are not using Ubuntu >= 20.04, please use it, then:
 `sudo apt-get update`
 `sudo apt-get install -y mongodb-org`
 
+# Comandi dei bot
+
+Gestore Feste:
+/start: per avviare il bot
+/festa: per visualizzare le feste disponibili
+
+Bot della festa:
+/start: per avviare il bot e verificare la posizione
+/addtable + numero: per aggiungere tavoli
+/removetable: per eliminare i tavoli
+/addfood + nome + emoji + quantità: per aggiungere del cibo
+/removefood + nome: rimuovi il cibo selezionato
+/id: per leggere le informazioni dell'utente
+/broadcast + messaggio: per mandare messaggi a tutti
+/promote + id utente: per promuovere a organizzatore un utente
+/depromote + id utente: per impostare utente un organizzatore
+/reset: per azzerare i contatoti e gli ordini
